@@ -40,8 +40,8 @@ body{
     align-items: center;
 }
 .inputGroup textarea{
-   width: 225px;
-   height: 30px;
+   width: 400px;
+   height: 40px;
    resize: none;
    padding: 5px;
    font-size: 16px;
@@ -53,6 +53,8 @@ body{
 
 .inputGroup button {
     padding: 20x 20px;
+    width: 70px;
+    height: 40px;
     font-size: 20px;
     cursor: pointer;
 
@@ -71,7 +73,7 @@ body{
 .currWeather h2{
     color: blue; 
     /*margin-left: 8px;*/
-    min-width: 300px;
+    min-width: 480px;
     max-width: 320;
     text-align: center;
     width: fit-content;   
