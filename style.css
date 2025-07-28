@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background: #080808;;
+    /*color: #fff*/
+}
+.weather{
+    padding: 10px 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    padding-top: 50px;
+    flex-direction: column;
+
+}
+
+.weather h1{
+    color: blue;
+    text-align: center;
+    /*margin-left: 100px;*/
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 250px;
+
+}
+
+.inputGroup{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.inputGroup textarea{
+   width: 225px;
+   height: 30px;
+   resize: none;
+   padding: 5px;
+   font-size: 16px;
+   color: blue;
+   margin-left: 0px;
+   align-items: center;
+   
+}
+
+.inputGroup button {
+    padding: 20x 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.currWeather {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: #2c2c3e;
+    
+    /*text-align: left;*/
+}
+.currWeather h2{
+    color: blue; 
+    /*margin-left: 8px;*/
+    min-width: 300px;
+    max-width: 320;
+    text-align: center;
+    width: fit-content;   
+}
+
+.currWeather p{
+    color: white;
+    background-color: #3d3d4d;
+    padding: 5px 5px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.4;
+}
